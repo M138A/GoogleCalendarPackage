@@ -18,8 +18,8 @@ namespace CalendarModule
     {
         private Events events = null;
         private string[] Scopes = new string[] {
-            CalendarService.Scope.Calendar, // Manage your calendars
- 	        CalendarService.Scope.CalendarReadonly // View your Calendars
+            CalendarService.Scope.Calendar,
+ 	        CalendarService.Scope.CalendarReadonly 
         };
         private string ApplicationName = "TamTam reservation service";
         CalendarService service = null;
@@ -77,12 +77,10 @@ namespace CalendarModule
         Search for an event by name. Case-sensitive!
         This method will only return 1 event, for more events use searchEventsByName
         */
-
         public Event searchEventByName(string name)
         {
             foreach (var eventItem in events.Items)
             {
-
                 if (eventItem.Summary.Contains(name))
                 {
 
@@ -92,6 +90,60 @@ namespace CalendarModule
             }
             return null;
         }
+
+        /**
+        Method that deletes an event
+        eventId - string : The ID of the event that needs to be deleted
+        **/
+        public void removeEvent(string eventId)
+        {
+            service.Events.Delete("primary", eventId).Execute();
+        }
+
+        /**
+        Method that updates an event in the calendar
+        eventId - string : The ID of the event that needs to be updated
+        updateValue - int : Value that needs to be updated 
+            1 : Summary
+            2 : Location
+            3 : Description
+            4 : Start Time
+            5 : End Time
+        replacement - string : The value that it needs to be replaced with
+        **/
+        public void updateEvent(string eventId, int updateValue, string replacement)
+        {
+            Event e = service.Events.Get("primary", eventId).Execute();
+            switch(updateValue)
+            {
+                case 1:
+                    e.Summary = replacement;
+                    return;
+                case 2:
+                    e.Location = replacement;
+                    return;
+                case 3:
+                    e.Description = replacement;
+                    return;
+                case 4:
+                    e.Start = new EventDateTime()
+                    {
+                        DateTime = DateTime.Parse(replacement),
+                        TimeZone = "Europe/Amsterdam",
+                    };
+                    return;
+                case 5:
+                    e.End = new EventDateTime()
+                    {
+                        DateTime = DateTime.Parse(replacement),
+                        TimeZone = "Europe/Amsterdam",
+                    };
+                    return;
+            }
+            service.Events.Update(e, "primary", e.Id).Execute();
+        }
+       
+
         /*
         Gets the newest version of the calendar
         */
@@ -106,9 +158,18 @@ namespace CalendarModule
 
         }
         /*
-       Returns all the events in the calendar.
-       */
+        Returns all the events in the calendar
+        */
         public Events getEvents(){ return events; }
+
+        /*
+        Updates the local eventslist and returns all the events in the calendar.
+        */
+        public Events updateAndGetEvents()
+        {
+            updateEvents();
+            return events;
+        }
 
 
         /*
@@ -143,8 +204,6 @@ namespace CalendarModule
         startDateTime - string : Enter the datetime when the event starts in a format parsable by DateTime
         endDateTime - string : Enter the datetime when the event ends in a format parsable by DateTime
         */
-
-
         public void createEvent(string summary, string location, string description, string startDateTime, string endDateTime)
         {
 
@@ -167,6 +226,7 @@ namespace CalendarModule
             String calendarId = "primary";
             EventsResource.InsertRequest request = service.Events.Insert(newEvent, calendarId);
             Event createdEvent = request.Execute();
+            updateEvents();
         }
     }
 

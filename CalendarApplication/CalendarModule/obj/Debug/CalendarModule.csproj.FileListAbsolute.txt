@@ -30,3 +30,35 @@ C:\Users\MarkGame\Google Drive\School\Visual Studio\C# Json\CalendarApplication\
 C:\Users\MarkGame\Google Drive\School\Visual Studio\C# Json\CalendarApplication\CalendarModule\obj\Debug\CalendarModule.csprojResolveAssemblyReference.cache
 C:\Users\MarkGame\Google Drive\School\Visual Studio\C# Json\CalendarApplication\CalendarModule\obj\Debug\CalendarModule.dll
 C:\Users\MarkGame\Google Drive\School\Visual Studio\C# Json\CalendarApplication\CalendarModule\obj\Debug\CalendarModule.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\client_secret.json
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\CalendarModule.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\CalendarModule.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Auth.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Core.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\log4net.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Newtonsoft.Json.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Zlib.Portable.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Auth.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Core.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.Core.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Google.Apis.PlatformServices.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\log4net.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Newtonsoft.Json.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\bin\Debug\Zlib.Portable.xml
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\obj\Debug\CalendarModule.csprojResolveAssemblyReference.cache
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\obj\Debug\CalendarModule.dll
+C:\Users\M138A\Documents\GoogleCalendarPackage\CalendarApplication\CalendarModule\obj\Debug\CalendarModule.pdb
