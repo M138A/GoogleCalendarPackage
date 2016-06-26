@@ -10,5 +10,3 @@ The following functionality is implemented:<br />
 *Delete event<br />
 *Print all the events in the console<br />
 *Create a new event<br /><br />
-
-The client_secret.json is not active,so don't even think about it.
